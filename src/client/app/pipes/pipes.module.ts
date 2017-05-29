@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [CommonModule, RouterModule],
   declarations: [],
-  exports: [CommonModule, FormsModule, RouterModule]
+  exports: []
 })
-export class SharedModule {
+export class PipesModule {
 }
