@@ -1,0 +1,24 @@
+:host{
+  height:100%;
+  width:100%;
+}
+.splash{
+  height:600px;
+  display: flex;
+  width:100%;
+  background: url('assets/img/video.png');
+  background-size: 1920px 900px;
+  background-position: center -70px;
+  .titulo{
+    display: flex;
+    height:100%;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    span{
+      display: flex;
+      color:#92E7CB;
+      font-size: 40px;
+    }
+  }
+}
