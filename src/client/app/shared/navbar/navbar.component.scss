@@ -2,6 +2,10 @@
   height:100%;
   width:100%;
 }
+@font-face {
+    font-family: Gobold;
+    src: url("assets/fonts/Gobold.ttf");
+}
 .navbar{
   height:50px;
   width: 100%;
@@ -25,14 +29,24 @@
     .item{
       padding:10px;
       display:flex;
-      font-weight:bold;
       color: #FFF;
       font-size:12px;
-      font-family: Helvetica;
+      font-family: Gobold;
       align-content: center;
       align-items:center;
+      &:hover{
+        color:#7DB9A8;
+      }
+      a{
+        text-decoration:none;
+        color: #FFF; 
+        &:hover{
+          color:#7DB9A8;
+        }  
+      }
       span{
         display:flex;
+
       }
     }
     .text-green{

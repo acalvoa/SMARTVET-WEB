@@ -2,6 +2,10 @@
   height:100%;
   width:100%;
 }
+@font-face {
+    font-family: Gobold;
+    src: url("assets/fonts/Gobold.ttf");
+}
 .splash{
   height:400px;
   display: flex;
@@ -15,6 +19,7 @@
     width:100%;
     justify-content:center;
     align-items:center;
+    font-family: Gobold;
     span{
       display: flex;
       color:#92E7CB;

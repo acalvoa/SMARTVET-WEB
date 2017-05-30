@@ -19,7 +19,6 @@ body {
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
 /* Set up a default font and some padding to provide breathing room */
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;

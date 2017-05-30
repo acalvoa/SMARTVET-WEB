@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 /**
  * Do not specify providers for modules that might be imported by a lazy loaded module.
@@ -10,8 +11,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   imports: [CommonModule, RouterModule],
-  declarations: [NavbarComponent],
-  exports: [CommonModule, FormsModule, RouterModule, NavbarComponent]
+  declarations: [NavbarComponent, FooterComponent],
+  exports: [CommonModule, FormsModule, RouterModule, NavbarComponent, FooterComponent]
 })
 export class SharedModule {
 }

@@ -9,7 +9,12 @@ import { HomeComponent } from './home/home.component';
       	path: '', 
         component: HomeComponent,
       	children: []
-  		}
+  		},
+      {   
+        path: ':ID', 
+        component: HomeComponent,
+        children: []
+      },
     ])
   ],
   exports: [RouterModule]

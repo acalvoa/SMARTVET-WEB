@@ -1,0 +1,11 @@
+<div id="quiensomos" class="quiensomos">
+	<div class="content">
+		<div class="titulo">¿QUIENES SOMOS?</div>
+	    <div class="own">
+	    	<div class="item" *ngFor="let integrante of integrantes" [style.background]="'url('+integrante.image+')'">
+	    		<div class="nombre">{{ integrante.nombre }}</div>
+	    		<div class="cargo">{{ integrante.cargo }}</div>
+	    	</div>
+	    </div>
+	</div>
+</div>
