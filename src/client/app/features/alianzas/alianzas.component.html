@@ -1,10 +1,12 @@
 <div id="alianzas" class="alianzas">
-	<div class="content">
-		<div class="titulo">ALIANZAS</div>
-	    <div class="own">
-	    	<div class="item" *ngFor="let alianza of alianzas" [style.background]="'url('+alianza.image+')'">
-	    		<div class="nombre">{{ alianza.nombre }}</div>
-	    	</div>
-	    </div>
+	<div class="background">
+		<div class="content">
+			<div class="titulo">ALIANZAS</div>
+		    <div class="own">
+		    	<div class="item" *ngFor="let alianza of alianzas" [style.background]="'url('+alianza.image+')'">
+		    		<div class="nombre">{{ alianza.nombre }}</div>
+		    	</div>
+		    </div>
+		</div>
 	</div>
 </div>
