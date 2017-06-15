@@ -12,7 +12,7 @@
   min-height: 300px;
   display: flex;
   width:100%;
-  background: url('assets/img/alianzas.png');
+  background: url('assets/img/alianzas.jpg');
   background-size: 1920px 900px;
   background-position: center -300px;
   font-family: Gobold;
@@ -51,18 +51,33 @@
           height: 180px;
           border-radius:100%;
           width:180px;
-          background: #92E7CB;
+          background-repeat: no-repeat;
+          background-color: #FFF;
+          background-position: center center;
+          background-size: 120px;
           flex-direction:column;
           align-items:center;
           justify-content: center;
           color: #FFF;
           margin:5px;
-          .nombre{
+          cursor: pointer;
+          .description{
             display:flex;
-            font-size:1.2rem;
-          }
-          .cargo{
-            display:flex;
+            font-size:0.7rem;
+            flex-direction:column;
+            align-items:flex-start;
+            height:100%;
+            background: rgba(0,0,0,0.4);
+            padding:10px;
+            .titulo_des{
+              display:flex;
+              font-size:0.8rem;
+              margin-bottom:5px;
+            }
+            .parrafo{
+              display:flex;
+              font-size:0.6rem;
+            }
           }
         }
       }

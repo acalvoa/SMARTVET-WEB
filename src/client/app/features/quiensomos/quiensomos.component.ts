@@ -12,19 +12,28 @@ import { Component, OnInit } from '@angular/core';
 export class QuiensomosComponent implements OnInit {
   private integrantes:any[] = [
     {
-      nombre: 'Leonardo Gonzalez',
-      cargo: 'Director General',
-      image: ''
-    },
-    {
       nombre: 'Andres Binder',
       cargo: 'Director General',
-      image: ''
+      descripcion: 'Médico Veterinario de la Universidad Mayor, con especialidad en producción y sistema de aseguramiento de calidad. Con experiencia en producción avicola y venta de productos especializados.',
+      image: 'assets/img/andres.png',
+      show: false,
+      x:190
+    },
+    {
+      nombre: 'Leonardo Gonzalez',
+      cargo: 'Director Comercial',
+      descripcion: 'Médico Veterinario emprendedor, Director Técnico Comercial y fundador  de Smart Vet. ',
+      image: 'assets/img/leo.png',
+      show: false,
+      x:190
     },
     {
       nombre: 'Angelo Calvo',
       cargo: 'Director de Tecnología',
-      image: ''
+      descripcion: 'Soy un amante del emprendimiento y a la vez un emprendedor multidisciplinario que ha participado en múltiples proyectos startup buscando nuevas posibilidades, propuestas y modelos de negocios.',
+      image: 'assets/img/angelo.png',
+      show: false,
+      x:270
     }
   ];
   /**

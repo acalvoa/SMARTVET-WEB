@@ -2,6 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { RestService } from './rest/rest.service';
 
 
 /**
@@ -11,6 +12,7 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [CommonModule, RouterModule],
   declarations: [],
+  providers: [RestService],
   exports: []
 })
 export class ServicesModule {

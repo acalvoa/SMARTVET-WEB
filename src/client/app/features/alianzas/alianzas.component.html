@@ -3,8 +3,11 @@
 		<div class="content">
 			<div class="titulo">ALIANZAS</div>
 		    <div class="own">
-		    	<div class="item" *ngFor="let alianza of alianzas" [style.background]="'url('+alianza.image+')'">
-		    		<div class="nombre">{{ alianza.nombre }}</div>
+		    	<div class="item" *ngFor="let alianza of alianzas" [style.background-image]="'url('+alianza.image+')'" [style.background-size]="alianza.x+'px'" (mouseover)="alianza.show = true" (mouseleave)="alianza.show = false">
+		    		<div class="description" *ngIf="alianza.show">
+		    			<div class="titulo_des">{{ alianza.nombre }}</div>
+		    			<div class="parrafo">{{ alianza.description }}</div>
+		    		</div>
 		    	</div>
 		    </div>
 		</div>
